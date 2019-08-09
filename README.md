@@ -30,13 +30,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the DOM?
 
+The DOM is the document object model.  It is language independent and can work with different languages.  Helps allow programing languages to read, create, and change elements on a page. 
+
 2. What is an event?
+
+Events are interactions that a user has with a site.  It could be anything from a click to a keypress to a scroll.  The browser detects these events and causes a reaction with whatever is programmed into the event listener.
 
 3. What is an event listener?
 
+We can add an event listener to an element by first specifying it in the DOM.  The event listener will then take two parameters, the first parameter is the event that it is listening for (like the click, toggle, or keypress, etc.) and the second parameter is the callback function that will be called when the event is triggered.
+
 4. Why would we convert a NodeList into an Array?
 
+NodeLists are what are returned when we select elements on an HTML page when we use querySelectorAll().  We would want to convert this into an array so that we would be able to use all of the functionality and methods that are available to use with arrays ( like .forEach, .map, etc.)
+
 5. What is a component?
+
+Components are reusable pieces of code.  They can be used to build elements that share functionality and styling similarities.  It can be made up of CSS, HTML, and JavaScript.  
 
 ### Git Set up
 
