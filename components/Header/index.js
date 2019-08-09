@@ -10,3 +10,20 @@
 // And add it to the DOM in the .headerContainer component
 
 function Header() {}
+const headerHeader = document.createElement('div');
+const date = document.createElement('span');
+const lambdaTimes = document.createElement('h1');
+const temp = document.createElement('span');
+
+headerHeader.classList.add('header');
+date.classList.add('date');
+temp.classList.add('temp');
+
+headerHeader.appendChild(date);
+headerHeader.appendChild(lambdaTimes);
+headerHeader.appendChild(temp);
+
+date.textContent = "MARCH 28, 2019";
+lambdaTimes.textContent = "Lambda Times";
+temp.textContent = "98°"
+
